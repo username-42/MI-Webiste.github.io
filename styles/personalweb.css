@@ -2,30 +2,51 @@
     font-family: Roboto Condensed Light;
     src: url("../fonts/RobotoCondensed-Light.ttf");
 }
-html {
-    background-color: #f0f0f0;
-}
+
 body {
     font-family: 'Roboto Condensed Light';
+    background-color: #f0f0f0;
 }
-h1{
-    background-color: #c2185b;
+
+#header {
     padding: 20px 20px;
-    color: whitesmoke
-    
 }
+.pink-background {
+     background-color: #c2185b;
+     color: whitesmoke;
+}
+.Column {
+    width: 45%;
+    overflow: hidden;
+}
+
+#hobbies {
+    float: left;
+    margin: auto;
+}
+
+#about_kermit{
+    float: right;
+}
+
+#image {
+    float:left;
+    margin: 20px 20 px;
+}
+   
 img {
-    border-radius: 50%
+    border-radius: 50%;
 }
 
 #footer {
-    background-color: #c2185b;
-    padding: 10px 0px;
-    color: whitesmoke
+    clear:both;
+    padding: 0px 0px;
+    text-align: center;
 }
 a:hover {
     color: #c2185b;
 }
+
 span {
     color: #c2185b;
     font-weight: bold;
